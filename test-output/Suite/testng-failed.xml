@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <classes>
+      <class name="testngpkg.Crossbrowsing">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngpkg.Crossbrowsing -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="edgeTest(failed)">
+    <classes>
+      <class name="testngpkg.Crossbrowsing">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngpkg.Crossbrowsing -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+  <test thread-count="5" name="firefoxTest(failed)">
+    <classes>
+      <class name="testngpkg.Crossbrowsing">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngpkg.Crossbrowsing -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
